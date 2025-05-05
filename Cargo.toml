@@ -3,6 +3,19 @@ name = "qx_rs_err"
 version = "0.0.0"
 edition = "2021"
 
+authors = ["labi3265 <766043285@qq.com>"]
+license = "MIT"
+description = "quick err util in rust. "
+homepage = "https://github.com/labi3285"
+repository = "https://github.com/labi3285/qx_rs_err"
+documentation = "https://docs.rs/qx_rs_err"
+readme = "README.md"
+
+[profile.release]
+#opt-level = 3
+#lto = true
+#codegen-units = 1
+
 [features]
 axum = [
     "dep:axum",
